@@ -7,8 +7,6 @@ on:
       - 'README.md'
     branches:
       - main
-  workflow_dispatch:
-    # manual run
 
 jobs:
   deploy:
