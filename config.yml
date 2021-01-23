@@ -127,3 +127,6 @@ markup:
         lineNos: false
         noClasses: false
         style: monokailight
+    goldmark:
+        renderer:
+            unsafe: true
