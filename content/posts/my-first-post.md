@@ -28,6 +28,14 @@ int sum;
 for (int i = 0, i<10, i++){
     sum += 1;
 }
+
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, World!")
+}
 ```
 
 <p>iii</p>

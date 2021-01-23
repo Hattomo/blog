@@ -104,11 +104,11 @@ menu:
     main:
         - identifier: search 
           name: Search 🔎
-          url: /search
+          url: /search/
           weight: 10
         - identifier: archive
           name: Archive
-          url: /archive/
+          url: /archives/
           weight: 20
         - identifier: categories
           name: Categories
@@ -119,11 +119,11 @@ menu:
           url: /tags/
           weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         # noClasses: false
-#         style: monokai
+markup:
+    highlight:
+        anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: false
+        noClasses: false
+        style: monokailight
