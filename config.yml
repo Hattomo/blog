@@ -117,7 +117,7 @@ menu:
           weight: 30
         - identifier: about
           name: About
-          url: /posts/about
+          url: /about
           weight: 40
 # - identifier: categories
 #   name: Categories
