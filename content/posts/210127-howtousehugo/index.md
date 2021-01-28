@@ -53,6 +53,7 @@ hugo server -D
 - [x] 文字サイズの変更
 - [x] google analytics の追加
 - [x] klatexのサポート
+- [ ] Syntax Highlightingの設定
 - [ ] 前回の記事、次の記事へのリンクの追加
 
 ## GitHubにpushしたらdeployが行われるよう設定する
