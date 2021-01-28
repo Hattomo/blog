@@ -28,6 +28,7 @@ params:
 
     ShowReadingTime: true
     ShowShareButtons: false
+    ShowPostNavLinks: true
     disableSpecial1stPost: false
     comments: false
     hidemeta: false
