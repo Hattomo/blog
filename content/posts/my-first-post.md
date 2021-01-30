@@ -29,6 +29,18 @@ func main() {
 }
 ```
 
+{{< highlight go "linenos=inline" >}}
+
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, World!")
+}
+{{< / highlight >}}
+
+
 行をあけないと 
 
 $\int_{a}^{b} x^2 dx$
@@ -58,21 +70,21 @@ https://www.apple.com/
 |:--|:--|  
 |O|P|
 
-
-
-https://hatenablog-parts.com/embed?url=www.apple.com
-
-
-{{< rawhtml >}}
-<iframe class="hatenablogcard" style="width:100%;height:155px;max-width:680px;" src="www.google.com" width="300" height="150" frameborder="0" scrolling="no">
-</iframe>{{< /rawhtml >}}
-
 {{< rawhtml >}}
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.apple.com/" data-iframely-url="//cdn.iframe.ly/oAScZk?iframe=card-small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 </iframe>{{< /rawhtml >}}
 
+{{< rawhtml >}}
+<iframe class="hatenablogcard" style="width:100%;height:155px;max-width:680px;" title="" src="https://hatenablog-parts.com/embed?url=http://apple.com" width="300" height="150" frameborder="0" scrolling="no"></iframe></iframe>
+{{< /rawhtml >}}
+
 {{< rawhtml>}}
 <br><br>
 {{< /rawhtml>}}
+
+{{< rawhtml>}}
+<iframe class="hatenablogcard" style="width:100%;height:155px;max-width:680px;"  title="" src="https://hatenablog-parts.com/embed?url=https://hattomo.github.io/posts/210127-howtousehugo/" width="300" height="150" frameborder="0" scrolling="no"></iframe>  
+{{< /rawhtml >}}
+<br>
 
 {{< rawhtml >}}<a href="#" style="text-decoration:none" onclick="history.back(); return false;">⬅  Return</a>{{< /rawhtml >}}

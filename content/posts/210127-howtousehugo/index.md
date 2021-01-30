@@ -10,9 +10,9 @@ TocOpen: false
 hidemeta: false
 comments: false
 description: "Hugoを利用する際の忘備録"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
+#disableHLJS: true # to disable highlightjs
+#disableShare: false
+disableHLJS: true
 # cover:
 #     image: "<image path/url>" # image path/url
 #     alt: "<alt text>" # alt text
@@ -28,10 +28,11 @@ disableHLJS: false
 ## テーマを決める
 テーマは少し迷いましたが、`hugo-PaperMod`にしました。開発が活発に続けられていたこと、ドキュメントが整備されていたこと、デザインが気に入ったためです。  
 gitのサブモジュールに登録します。
-```shell
+
+{{< highlight sh "linenos=false" >}}
 git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
 git submodule update --init --recursive
-```
+{{< /highlight>}}
 今後テーマをアップデートするためには、以下のコマンドを実行します。
 ```shell
 git submodule update --remote --merge
@@ -39,7 +40,8 @@ git submodule update --remote --merge
 
 ## 新規記事を作成する
 以下のコマンドを実行します。
-```
+
+```shell
 hugo new posts/{path to new file}.md
 ```
 
@@ -53,8 +55,8 @@ hugo server -D
 - [x] 文字サイズの変更
 - [x] google analytics の追加
 - [x] klatexのサポート
-- [ ] Syntax Highlightingの設定
-- [ ] 前回の記事、次の記事へのリンクの追加
+- [x] Syntax Highlightingの設定
+- [x] 前回の記事、次の記事へのリンクの追加
 
 ## GitHubにpushしたらdeployが行われるよう設定する
 GitHub actionを利用して、自動的にgithub-pagesにdeployが行われるように設定します。

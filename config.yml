@@ -36,7 +36,7 @@ params:
     tocopen: false
 
     assets:
-        # disableHLJS: true # to disable highlight.js
+        disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
         favicon: "<link / abs url>"
         favicon16x16: "<link / abs url>"
@@ -127,11 +127,13 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 markup:
     highlight:
-        anchorLineNos: true
+        anchorLineNos: false
         codeFences: true
         guessSyntax: true
         lineNos: false
         noClasses: false
+        pygmentsUseClasses: true
+        pygmentsCodefences: true
         style: monokailight
     goldmark:
         renderer:
