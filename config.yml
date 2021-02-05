@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-187976627-1
+#googleAnalytics: UA-187976627-1
 GoogleAnalytics: G-352SDD97BP # GA4
 
 minify:
@@ -65,7 +65,7 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hello World ✈️"
+        Title: "Hello World"
         Content: Welcome to Hattomo blog
 
     socialIcons:
