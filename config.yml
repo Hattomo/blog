@@ -71,8 +71,8 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/Hattomo"
-        - name: twitter
-          url: "https://twitter.com/Hattomo_"
+        # - name: twitter
+        #  url: "https://twitter.com/Hattomo_"
         - name: rss
           url: https://Hattomo.github.io/index.xml
 

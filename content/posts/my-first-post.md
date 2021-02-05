@@ -10,6 +10,7 @@ TocOpen: false
 hidemeta: false
 comments: false
 description: "Desc Text."
+categories: ["test"]
 ---
 
 Hello! World
