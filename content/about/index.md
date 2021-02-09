@@ -18,6 +18,32 @@ description: "Hi, there! \U0001F44B"
 #     hidden: false # only hide on current single page
 ---
 
-### Who are you ?
+## Who are you ?
 
 I am a student in University. I ❤️ Python, Flutter, VSCode, Machine Learning.
+
+## Computer Skills
+- Python
+- Flutter & Dart
+- C/C++
+- Java(little)
+
+## My Computers
+
+Computers which I use.
+
+- Macbook Pro 13inch 2017
+|Parts|Model|
+|:--|:--|
+|OS|macOS 11|
+|CPU|Intel Corei5 7360U|
+|Memory|8GB 2133 MHz|
+|SSD|256GB|
+
+- Self build PC (Family sharing)
+|Parts|Model|
+|:--|:--|
+|OS|macOS 11 / windows10 20h2|
+|CPU|Intel Corei5 8400|
+|Memory|16GB 2666 MHz|
+|SSD|1TB / 500GB|
