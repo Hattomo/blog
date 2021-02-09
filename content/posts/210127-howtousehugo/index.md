@@ -5,14 +5,15 @@ draft: false
 # weight: 1
 # aliases: ["/first"]
 tags: ["hugo"]
+categories: ["computer"]
 showToc: true
-TocOpen: false
+TocOpen: true
 hidemeta: false
 comments: false
 description: "Hugoを利用する際の忘備録"
 #disableHLJS: true # to disable highlightjs
 #disableShare: false
-disableHLJS: true
+#disableHLJS: true
 # cover:
 #     image: "<image path/url>" # image path/url
 #     alt: "<alt text>" # alt text
