@@ -43,7 +43,15 @@ Computers which I use.
 - Self build PC (Family sharing)
 |Parts|Model|
 |:--|:--|
-|OS|macOS 11 / windows10 20h2|
+|OS|macOS 11 / windows10 20H2|
 |CPU|Intel Corei5 8400|
 |Memory|16GB 2666 MHz|
 |SSD|1TB / 500GB|
+
+- Raspberry Pi 3B+
+|Parts|Model|
+|:--|:--|
+|OS|Raspbian|
+|SoC|Broadcom BCM2837B0|
+|Memory|1GB|
+|Micro SD Card|16GB|
