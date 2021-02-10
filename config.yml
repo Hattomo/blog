@@ -22,7 +22,7 @@ params:
     description: "Hattomo description"
     author: [""]
     # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
+    # images: ["<link or path of image for opengraph, twitter-cards>"] google crawler
 
     defaultTheme: auto # dark, light
     disableThemeToggle: false
@@ -41,11 +41,13 @@ params:
     assets:
         disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+
+        # favicon google crawler
+        # favicon: "<link / abs url>"
+        # favicon16x16: "<link / abs url>"
+        # favicon32x32: "<link / abs url>"
+        # apple_touch_icon: "<link / abs url>"
+        # safari_pinned_tab: "<link / abs url>"
 
     label:
         text: "Hattomo"
@@ -56,7 +58,7 @@ params:
     profileMode:
         enabled: false # needs to be explicitly set
         title: ExampleSite
-        imageUrl: "<img location>"
+        # imageUrl: "<img location>" google crawler
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
