@@ -88,4 +88,8 @@ https://www.apple.com/
 {{< /rawhtml >}}
 <br>
 
+<div style="padding: 0.75em; margin-bottom: 1rem; color: #fff; background-color: #78c2ad; border: 1px solid transparent; border-radius: 0.25rem;">
+  表示したいコメント
+</div>
+
 {{< rawhtml >}}<a href="#" style="text-decoration:none" onclick="history.back(); return false;">⬅  Return</a>{{< /rawhtml >}}

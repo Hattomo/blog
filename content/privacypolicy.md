@@ -7,7 +7,7 @@ draft: false
 tags: []
 showToc: false
 TocOpen: false
-hidemeta: false
+hidemeta: true
 comments: false
 description: ""
 disableHLJS: true # to disable highlightjs
