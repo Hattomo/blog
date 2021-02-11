@@ -10,6 +10,7 @@ showToc: true
 TocOpen: true
 hidemeta: false
 comments: false
+math: false
 ShowBreadCrumbs: true
 description: "Desc Text."
 # disableHLJS: true # to disable highlightjs

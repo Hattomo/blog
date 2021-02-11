@@ -35,7 +35,7 @@ params:
     hidemeta: false
     showtoc: true
     tocopen: true
-    
+    math: false
     ShowBreadCrumbs: true
 
     assets:

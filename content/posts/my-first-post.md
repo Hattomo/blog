@@ -9,6 +9,7 @@ showToc: true
 TocOpen: false
 hidemeta: false
 comments: false
+math: true
 description: "Desc Text."
 categories: ["test"]
 ---
