@@ -7,7 +7,7 @@ draft: false
 tags: []
 showToc: false
 TocOpen: false
-hidemeta: false
+hidemeta: true
 comments: false
 description: "Hi, there! \U0001F44B"
 # cover:
