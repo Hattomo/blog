@@ -43,10 +43,10 @@ params:
         # disableFingerprinting: true
 
         # favicon google crawler
-        # favicon: "<link / abs url>"
-        # favicon16x16: "<link / abs url>"
-        # favicon32x32: "<link / abs url>"
-        # apple_touch_icon: "<link / abs url>"
+        favicon: "images/favicon/favicon.icon"
+        favicon16x16: "images/favicon/favicon-16x16.png"
+        favicon32x32: "images/favicon/favicon-32x32.png"
+        apple_touch_icon: "apple-icon-180x180.png"
         # safari_pinned_tab: "<link / abs url>"
 
     label:
