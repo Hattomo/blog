@@ -42,7 +42,6 @@ params:
         disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
 
-        # favicon google crawler
         favicon: "images/favicon/favicon.icon"
         favicon16x16: "images/favicon/favicon-16x16.png"
         favicon32x32: "images/favicon/favicon-32x32.png"
