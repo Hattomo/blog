@@ -1,6 +1,8 @@
 name: Build GH-Pages
 
 on:
+  schedule:
+    - cron:  '0 15 * * *'
   push:
     paths-ignore:
       - 'LICENSE'
