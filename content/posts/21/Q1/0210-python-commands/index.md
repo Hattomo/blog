@@ -11,7 +11,7 @@ TocOpen: true
 hidemeta: false
 comments: false
 ShowBreadCrumbs: true
-description: "How to use python venv"
+description: "Memolize Python useful tools"
 # disableHLJS: true # to disable highlightjs
 # disableShare: false
 # disableHLJS: false

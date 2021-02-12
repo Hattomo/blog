@@ -5,7 +5,7 @@ draft: true
 # weight: 1
 # aliases: ["/first"]
 tags: ["test"]
-categories: ["test"]
+categories: ["computer"]
 showToc: true
 TocOpen: true
 hidemeta: false
