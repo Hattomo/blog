@@ -4,7 +4,7 @@ date: 2021-02-13T12:46:03+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
-tags: ["hugo","githubactions"]
+tags: ["hugo","githubactions","github"]
 categories: ["computer"]
 showToc: true
 TocOpen: true
