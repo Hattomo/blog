@@ -1,7 +1,7 @@
 ---
 title: "HugoでLastmodが同一時刻になる"
 date: 2021-02-13T12:46:03+09:00
-draft: true
+draft: false
 # weight: 1
 # aliases: ["/first"]
 tags: ["hugo","githubactions"]
