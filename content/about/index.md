@@ -24,7 +24,7 @@ I am a student in University. I ❤️ Python, Flutter, VSCode, Machine Learning
 
 ## Computer Skills
 - Python
-- Flutter & Dart
+- Flutter(contributor) & Dart
 - C/C++
 - Java(little)
 

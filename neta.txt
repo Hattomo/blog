@@ -1,5 +1,3 @@
-GitHub Action & Hugo
-Google Analytics 4 
 Choma
 GAN
 AP log
