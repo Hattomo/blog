@@ -1,7 +1,6 @@
 Choma
 GAN
 AP log
-Github Codeapaces
 Management
 Mos
 karabinar-elements
