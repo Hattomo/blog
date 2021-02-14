@@ -8,6 +8,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+HasCJKLanguage: true
 
 #googleAnalytics: UA-187976627-1
 GoogleAnalytics: G-352SDD97BP # GA4
