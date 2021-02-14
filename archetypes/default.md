@@ -13,10 +13,6 @@ comments: false
 math: false
 ShowBreadCrumbs: true
 description: "Desc Text."
-# disableHLJS: true # to disable highlightjs
-# disableShare: false
-# disableHLJS: false
-
 # cover:
 #     image: "<image path/url>" # image path/url
 #     alt: "<alt text>" # alt text
