@@ -1,7 +1,7 @@
 ---
 title: "Hugoで読了時間や文字数表示がおかしい"
 date: 2021-02-14T23:11:34+09:00
-draft: true
+draft: false
 # weight: 1
 # aliases: ["/first"]
 tags: ["hugo"]
