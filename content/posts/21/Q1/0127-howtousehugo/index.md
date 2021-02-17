@@ -1,6 +1,7 @@
 ---
 title: "How to install and use Hugo"
 date: 2021-01-27T13:33:06+09:00
+lastmod: 2021-02-11T16:01:55+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]

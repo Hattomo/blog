@@ -3,7 +3,7 @@ title: Hattomo
 paginate: 5
 theme: PaperMod
 
-enableGitInfo: true # git modified date
+enableGitInfo: false # git modified date
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -27,7 +27,7 @@ params:
 
     defaultTheme: auto # dark, light
     disableThemeToggle: false
-
+    ShowWordCount: true
     ShowReadingTime: true
     ShowShareButtons: false
     ShowPostNavLinks: true

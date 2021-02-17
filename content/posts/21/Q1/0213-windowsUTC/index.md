@@ -1,6 +1,7 @@
 ---
 title: "Windowsの時間をUTCで管理する"
 date: 2021-02-13T19:18:41+09:00
+lastmod: 2021-02-13T19:49:23+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]

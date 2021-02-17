@@ -1,6 +1,7 @@
 ---
 title: "GitHub CodespacesでHugo"
 date: 2021-02-13T05:18:27Z
+lastmod: 2021-02-13T06:01:29+00:00
 draft: false
 # weight: 1
 # aliases: ["/first"]

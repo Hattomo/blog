@@ -1,6 +1,7 @@
 ---
 title: "Useful Python commands"
 date: 2021-02-10T00:48:03+09:00
+lastmod: 2021-02-12T18:50:35+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]

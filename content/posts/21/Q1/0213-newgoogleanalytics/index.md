@@ -1,6 +1,7 @@
 ---
 title: "HugoでGoogle Analytics 4を利用する"
 date: 2021-02-13T11:48:30+09:00
+lastmod: 2021-02-13T12:28:08+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]

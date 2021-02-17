@@ -1,6 +1,7 @@
 ---
 title: "Privacy Policy"
 date: 2021-01-27T23:42:50+09:00
+lastmod: 2021-02-11T00:26:10+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]

@@ -1,6 +1,7 @@
 ---
 title: "シェルでHugoのポストを新規作成する"
 date: 2021-02-13T18:47:00+09:00
+lastmod: 2021-02-13T19:49:23+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]

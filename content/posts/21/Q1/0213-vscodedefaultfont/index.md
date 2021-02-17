@@ -1,6 +1,7 @@
 ---
 title: "VSCodeのデフォルトフォントを確認する方法"
 date: 2021-02-13T10:41:23+09:00
+lastmod: 2021-02-13T11:46:42+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]

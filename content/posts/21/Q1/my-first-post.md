@@ -1,6 +1,7 @@
 ---
 title: "My First Post & Test"
 date: 2021-01-23T11:44:54+09:00
+lastmod: 2021-02-11T21:51:10+09:00
 draft: true
 # weight: 1
 # aliases: ["/first"]

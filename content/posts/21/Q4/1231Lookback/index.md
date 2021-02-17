@@ -1,6 +1,7 @@
 ---
 title: "Looking back 2021 and Hello 2022"
 date: 2021-12-31T12:40:39+09:00
+lastmod: 
 draft: true
 # weight: 1
 # aliases: ["/first"]

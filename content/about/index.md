@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2021-01-24T11:44:54+09:00
+lastmod: 2021-02-13T13:45:52+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
