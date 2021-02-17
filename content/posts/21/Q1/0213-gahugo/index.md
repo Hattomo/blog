@@ -1,7 +1,7 @@
 ---
 title: "HugoでLastmodが同一時刻になる"
 date: 2021-02-13T12:46:03+09:00
-lastmod: 2021-02-13T06:01:29+00:00
+lastmod: 2021-02-18T00:16:09+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -27,7 +27,7 @@ description: "LastmodがGitHub Actionで同一時刻になる"
 ---
 ## はじめに
 `Hugo`では、記事の最終更新時刻を`Lastmod`を利用して表すことができます。configファイルで`enableGitInfo: true`と記入しておくとgitのlogをもとにHugoが自動的にLastmodを設定しくれます。しかし、GitHub ActionsでHugoをビルドしたところ、すべてのLastmodが同じ時間(pushした時刻)になってしまっていました。
-lastmod: 
+
 ## 解決法
 GitHub Actionsのファイルは以下のようでした。
 ```yml
