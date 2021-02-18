@@ -1,7 +1,7 @@
 ---
 title: "シェルでHugoのポストを新規作成する"
 date: 2021-02-13T18:47:00+09:00
-lastmod: 2021-02-13T19:49:23+09:00
+lastmod: 2021-02-18T11:58:23+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -57,3 +57,26 @@ var=`command`
 ```
 dateコマンドを利用して必要な値を取得し、変数に入れ、`$path`で結合しています。
 あとはコマンドを実行して新しいポストを生成するだけです。
+と思いましたが、macOSで動作しません。macOSの`date`コマンドには、`%q`がなくクオータが取得できません。そこで、`if-elif-else`を使って書き直しました。
+```sh
+# useage ./newpost title
+# $1 := titile
+
+title=$1
+year=`date '+%y'`
+month=`date '+%m'`
+date=`date '+%d-'`
+#quoter=`date '+Q%q'` # for Linux, not for macOS
+if [ $month == 01 ] || [ $month == 02 ] || [ $month == 03 ]; then
+  quoter=1
+elif [ $month == 04 ] || [ $month == 05 ] || [ $month == 06 ]; then
+  quoter=2
+elif [ $month == 07 ] || [ $month == 08 ] || [ $month == 09 ]; then
+    quoter=3
+else
+    quoter=4
+fi
+path=posts/$year/Q$quoter/$month$date$title/index.md
+hugo new $path
+```
+これで目的を達成できました。
