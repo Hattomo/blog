@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 math: false
 ShowBreadCrumbs: true
-description: "hugoのポストをシェルで新規作成する"
+description: "hugoのポストをシェルで新規作成する方法"
 # disableHLJS: true # to disable highlightjs
 # disableShare: false
 # disableHLJS: false

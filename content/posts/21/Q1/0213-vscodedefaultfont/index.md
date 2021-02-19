@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 math: false
 ShowBreadCrumbs: true
-description: "VSCodeのデフォルトのフォントを探す旅"
+description: "VSCodeのデフォルトのフォントはOSごとに何が設定されているか調査する"
 # disableHLJS: true # to disable highlightjs
 # disableShare: false
 # disableHLJS: false

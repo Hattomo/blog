@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 math: false
 ShowBreadCrumbs: true
-description: "HugoでGA4!"
+description: "Hugoで新しくなったGoogleAnalyticsを使う"
 # disableHLJS: true # to disable highlightjs
 # disableShare: false
 # disableHLJS: false

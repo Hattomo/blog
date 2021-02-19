@@ -5,7 +5,7 @@ lastmod: 2021-02-18T00:16:09+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
-tags: ["hugo","githubactions","github"]
+tags: ["hugo","ci","github"]
 categories: ["computer"]
 showToc: true
 TocOpen: true

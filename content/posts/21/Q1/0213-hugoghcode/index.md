@@ -5,7 +5,7 @@ lastmod: 2021-02-13T06:01:29+00:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
-tags: ["hugo","codespaces","github"]
+tags: ["hugo","github"]
 categories: ["computer"]
 showToc: true
 TocOpen: true
@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 math: false
 ShowBreadCrumbs: true
-description: "GitHub Codespaces is all new way to coding"
+description: "GitHub Codespaces is all new way to coding, I tried it to write hugo blog and it was great exprience."
 # disableHLJS: true # to disable highlightjs
 # disableShare: false
 # disableHLJS: false

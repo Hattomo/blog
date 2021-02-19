@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 math: false
 ShowBreadCrumbs: true
-description: "Flutterが使える機能はどのように管理されているか"
+description: "Flutterのチャンネルで使える機能はどのように管理されているか"
 # cover:
 #     image: "<image path/url>" # image path/url
 #     alt: "<alt text>" # alt text

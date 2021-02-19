@@ -5,7 +5,7 @@ lastmod: 2021-02-16T00:15:22+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
-tags: ["macos","app","karabiner"]
+tags: ["macos","app"]
 categories: ["computer"]
 showToc: true
 TocOpen: true
