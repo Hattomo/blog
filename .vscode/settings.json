@@ -1,3 +1,7 @@
 {
     //"explorer.sortOrder": "modified"
+    "workbench.colorCustomizations": {
+        //"activityBar.background": "#993333"
+        // "titleBar.activeBackground": "#ff00ff"
+    } 
 }

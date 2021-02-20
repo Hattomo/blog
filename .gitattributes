@@ -1,1 +1,2 @@
 tools/pre-commit text
+*.sh core.autocrlf=true 
