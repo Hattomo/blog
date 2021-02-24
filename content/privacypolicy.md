@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 date: 2021-01-27T23:42:50+09:00
-lastmod: 2021-02-11T00:26:10+09:00
+lastmod: 2021-02-24T14:59:21+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -14,12 +14,12 @@ description: ""
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: true # when using page bundles set this to true
-    hidden: false # only hide on current single page
+# cover:
+#     image: "<image path/url>" # image path/url
+#     alt: "<alt text>" # alt text
+#     caption: "<text>" # display caption under cover
+#     relative: true # when using page bundles set this to true
+#     hidden: false # only hide on current single page
 ---
 
 ## アクセス解析ツールについて
