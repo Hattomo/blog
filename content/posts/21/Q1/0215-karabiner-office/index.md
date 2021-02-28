@@ -1,11 +1,11 @@
 ---
 title: "macOSのOfficeでEmacsキーバインド"
 date: 2021-02-15T16:47:52+09:00
-lastmod: 2021-02-16T00:15:22+09:00
+lastmod: 2021-02-28T21:29:13+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
-tags: ["macos","app"]
+tags: ["mac","app"]
 categories: ["computer"]
 showToc: true
 TocOpen: true
