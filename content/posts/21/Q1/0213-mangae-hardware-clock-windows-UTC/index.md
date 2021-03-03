@@ -1,7 +1,7 @@
 ---
-title: "Windowsの時間をUTCで管理する"
+title: "WindowsのハードウェアクロックをUTCで管理する"
 date: 2021-02-13T19:18:41+09:00
-lastmod: 2021-02-13T19:49:23+09:00
+lastmod: 2021-03-03T11:36:24+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 math: false
 ShowBreadCrumbs: true
-description: "Windowsの時間をUTCで管理する方法"
+description: "WindowsのハードウェアクロックをUTCで管理する方法"
 # disableHLJS: true # to disable highlightjs
 # disableShare: false
 # disableHLJS: false
@@ -29,10 +29,10 @@ description: "Windowsの時間をUTCで管理する方法"
 WindowsをLinuxやmacOS(bootcampでない)とデュアルブートしていると、OSの時計表示がおかしくなってしまうことがあります。
 
 ## どうしておかしくなるのか
-Windowsは内部でローカルの時間を利用しています。日本であればUTC+09:00です。電源を切るとき、BIOSにこの値を保存します。BIOSは搭載された電池によって、この値を保持・更新し、次回Windowsが起動する際にWindowsに渡します。しかし、LinuxやmacOSでは、UTCそのもので時間を管理し、表示する際にはタイムゾーンに合わせた値を計算します。このため、例えば、WindowsがUTC+09:00としてシャットダウン時に保存した値をLinuxはUTCと解釈してしまうのです。逆もまた然りです。このため、どちらかの方法に統一する必要があります。今回はWindowsの時間管理をUTCにあわせます。
+Windowsは内部でローカルの時間を利用しています。日本であればUTC+09:00です。電源を切るとき、BIOSにこの値を保存します。これをハードウェアクロック、RTC、CMOSクロックと呼びます。BIOSは搭載された電池によって、この値を保持・更新し、次回Windowsが起動する際にWindowsに渡します。しかし、LinuxやmacOSでは、UTCそのものでハードウェアクロックを管理し、表示する際にはタイムゾーンに合わせた値を計算します。このため、例えば、WindowsがUTC+09:00としてシャットダウン時に保存した値をLinuxはUTCと解釈してしまうのです。逆もまた然りです。このため、どちらかの方法に統一する必要があります。今回はWindowsのハードウェアクロックをUTCにあわせます。
 
 ## WindowsをUTCに
-コマンドプロンプトを開いて以下のコマンドを実行します。
+コマンドプロンプトを開いて以下のコマンドを実行します。このコマンドはレジストリを変更し、WindowsのハードウェアクロックをUTCに合わせます。コマンドを実行する際管理者権限が必要です。
 ```cmd
 # set UTC
 reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
