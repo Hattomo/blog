@@ -1,6 +1,6 @@
 baseURL: "https://hattomo.github.io/"
 title: Hattomo
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableGitInfo: false # git modified date
