@@ -1,7 +1,7 @@
 ---
 title: "PythonでLINEトークの履歴を解析し、グラフを生成する"
 date: 2021-03-12T00:11:07+09:00
-lastmod: 2021-03-12T16:11:07+09:00
+lastmod: 2021-03-13T13:56:47+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -460,5 +460,5 @@ plt.savefig('char_count_by_person.png')
 以上でグラフを作成することができました。一度作ってしまえば実行するだけなので、定期的に実行して変化を試したいと思います。
 
 # Reference
-以下のページを参考にしました
-https://qiita.com/shimajiroxyz/items/9a06a086ee9730ee3d55
+以下のページを参考にしました  
+- https://qiita.com/shimajiroxyz/items/9a06a086ee9730ee3d55
