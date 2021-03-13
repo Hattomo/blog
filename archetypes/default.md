@@ -1,11 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-lastmod: {{ .Date }}
+lastmod: 2021-03-13T13:55:03+09:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
-tags: ["test"]
+tags: [""]
 categories: ["computer"]
 showToc: true
 TocOpen: true
