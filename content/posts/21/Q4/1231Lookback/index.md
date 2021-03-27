@@ -5,7 +5,7 @@ lastmod: 2021-03-12T00:46:57+09:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
-tags: ["test"]
+tags: [""]
 categories: [""]
 showToc: true
 TocOpen: true
