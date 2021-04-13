@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-01-24T11:44:54+09:00
-lastmod: 2021-02-13T13:45:52+09:00
+lastmod: 2021-04-13T16:16:25+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -36,7 +36,7 @@ Computers which I use.
 - Macbook Pro 13inch 2017
 |Parts|Model|
 |:--|:--|
-|OS|macOS 11|
+|OS|macOS|
 |CPU|Intel Corei5 7360U|
 |Memory|8GB 2133 MHz|
 |SSD|256GB|
@@ -44,10 +44,10 @@ Computers which I use.
 - Self build PC (Family sharing)
 |Parts|Model|
 |:--|:--|
-|OS|macOS 11 / windows10 20H2|
+|OS|Windows10|
 |CPU|Intel Corei5 8400|
 |Memory|16GB 2666 MHz|
-|SSD|1TB / 500GB|
+|SSD|500GB|
 
 - Raspberry Pi 3B+
 |Parts|Model|
@@ -56,3 +56,12 @@ Computers which I use.
 |SoC|Broadcom BCM2837B0|
 |Memory|1GB|
 |Micro SD Card|16GB|
+
+- Lab PC (Desktop)
+|Parts|Model|
+|:--|:--|
+|OS|Ubuntu|
+|CPU|Intel Corei5 8700k|
+|GPU|Geforce 1080Ti|
+|Memory|64GB 2666 MHz|
+|SSD|500GB|
