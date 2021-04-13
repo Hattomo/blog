@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-lastmod: {{ .Date }}
+lastmod: 2021-04-13T09:38:43+09:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
@@ -21,3 +21,5 @@ description: "Desc Text."
 #     relative: true # when using page bundles set this to true
 #     hidden: false # only hide on current single page
 ---
+
+# はじめに
