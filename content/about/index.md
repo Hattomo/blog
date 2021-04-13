@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-01-24T11:44:54+09:00
-lastmod: 2021-04-13T16:16:25+09:00
+lastmod: 2021-04-13T16:22:37+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -63,5 +63,5 @@ Computers which I use.
 |OS|Ubuntu|
 |CPU|Intel Corei5 8700k|
 |GPU|Geforce 1080Ti|
-|Memory|64GB 2666 MHz|
+|Memory|64GB 2133 MHz|
 |SSD|500GB|
