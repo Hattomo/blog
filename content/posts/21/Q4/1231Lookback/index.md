@@ -1,7 +1,7 @@
 ---
 title: "Looking back 2021 and Hello 2022"
 date: 2021-12-31T12:40:39+09:00
-lastmod: 2021-05-27T23:13:25+09:00
+lastmod: 2021-05-27T23:29:17+09:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
@@ -37,11 +37,11 @@ Flutter Engageが行われる。ディストップがstable channelで利用で�
 ### May
 引き続き、機械学習のモデルなどを勉強しました。`Google IO`や`Microsoft Build2021`のバーチャルイベントも楽しみました。模型航空機の作成やドローンの自立飛行の講義も本格的になってきており、楽しかった。
 ## Roadamp of later 2021
-- [] Learn English
-- [] Get licence of 応用技術者試験
-- [] Build and Release app
-- [] Pass graduate School entrance examination
-- [] Get keyboard?
+- [ ] Learn English
+- [ ] Get licence of 応用技術者試験
+- [ ] Build and Release app
+- [ ] Pass graduate School entrance examination
+- [ ] Get keyboard?
 ### June
 ### July
 ### August
