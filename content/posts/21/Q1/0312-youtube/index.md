@@ -1,7 +1,7 @@
 ---
 title: "Youtubeの動画をダウンロードするyoutube-dlを試す"
 date: 2021-03-12T09:20:07+09:00
-lastmod: 2021-03-12T09:20:07+09:00
+lastmod: 2021-05-27T23:13:24+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -21,13 +21,13 @@ description: "Youtubeの動画をダウンロードするyoutube-dlを試す"
 #     relative: true # when using page bundles set this to true
 #     hidden: false # only hide on current single page
 ---
-# はじめに
+## はじめに
 YouTubeの動画をダウンロードする`youtube-dl`[(GitHub)](https://github.com/ytdl-org/youtube-dl/)を試してみました。
 
-# インストール方法
+## インストール方法
 GitHubの[README.md](https://github.com/ytdl-org/youtube-dl/)で最新の方法を確認してください。現時点では、バイナリをダウンロードする方法、`pip`でインストールする方法、`brew`などがあるようです。インストールした後、パスを通してください。
 
-# youtube-dlの使い方
+## youtube-dlの使い方
 youtube-dlは、
 ```sh
 $ youtube-dl [URL]
@@ -54,7 +54,7 @@ $ youtube-dl [URL]
 ```
 --write-thumbnail
 ```
-# シェルスクリプト
+## シェルスクリプト
 
 全体のシェルスクリプトです。URLと画質をコマンドライン引数として指定して、ダウンロードすることができます。
 

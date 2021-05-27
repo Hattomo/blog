@@ -1,7 +1,7 @@
 ---
 title: "Auto HotkeyでMac風キーバインド！"
 date: 2021-02-23T11:05:19+09:00
-lastmod: 2021-02-23T11:05:19+09:00
+lastmod: 2021-05-27T23:13:24+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -21,11 +21,11 @@ description: "WindowsでmacOS風のキーバインドや便利なショートカ
 #     relative: true # when using page bundles set this to true
 #     hidden: false # only hide on current single page
 ---
-# はじめに
+## はじめに
 WindowsでもmacOS風のキーバインドを利用したいことがあると思います。そのための設定です。レジストリとAutoHotKeyを利用します。  
 ※レジストリをおかしくいじると最悪Windowsが起動しなくなります。自己責任でお願いします。
 
-# レジストリでキーをリマップする
+## レジストリでキーをリマップする
 レジストリでキーをリマップするためには、`Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout`に`Scancode Map`という名称で設定を追加します。空白の場所で右クリックし、`New`→`Binary value`を選択、設定名を`Scancode Map`としてください。  
 次に、設定を書き込みます。
 今回設定するのは以下の項目です。
@@ -51,7 +51,7 @@ RCtrl    →   RAlt
 この設定がどのような構造になっているについてはたくさんのブログがあるのでそちらを見てください。  
 再起動した際、設定が反映されていれば成功です。
 
-# AutoHotKey を設定する
+## AutoHotKey を設定する
 ### mac風キーバインドの設定
 AutoHotKeyをインストールし、`xxx.ahk`ファイルを作成します。  
 私のAutoHotKeyのバージョンは1.1.33.02です。

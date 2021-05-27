@@ -1,7 +1,7 @@
 ---
 title: "Chrome Extensionでメディアコントローラーを作る"
 date: 2021-03-13T13:04:08+09:00
-lastmod: 2021-03-13T13:04:08+09:00
+lastmod: 2021-05-27T23:13:24+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -21,10 +21,10 @@ description: "Chrome Extensionでローカルにあるビデオや音声ファ�
 #     relative: true # when using page bundles set this to true
 #     hidden: false # only hide on current single page
 ---
-# はじめに
+## はじめに
 Chromeでローカルにあるビデオや音声ファイルを開くと再生することができます。しかし、一時停止、再生、音量の変更、Picture in Pictureしかできません。再生速度とか変えたいですよね。そこで、Chrome Extensionを作って機能を拡張してみました。作成するエクステンションはスピードの変更(0.1倍速から16倍速まで)、5秒進む、5秒戻る、ループ設定(ON,OFF)、音量の変更、ミュート(ON,OFF)をキーボードショートカットで行えるようにするものです。やってみると意外と簡単でした。
 
-# chrome extension を作成する
+## chrome extension を作成する
 エクステンションを作成していきます。ディレクトリを作成し、その中にファイルを作成していってください。
 ### manifest.jsonの作成
 chromeのextensionを作るためには、まず`manifest.json`を作成する必要があります。これは、エクステンションの名称やバージョン、実行するファイルなどの設定を記述します。現在の`manifest_version`の最新は3なので`manifest_version`を3としました。`permissions`はエクステンションが必要な権限を記載します。`content_scripts.matches`では、このエクステンションがいつ有効になるかを設定します。URLがこれによって設定されているパターンとマッチしたときにエクステンションが有効になります。今回は`file://`で始まると有効化されます。`content_scripts.js`で実際に実行するファイルを指定します。`icons`には、アイコンのパスを設定します。

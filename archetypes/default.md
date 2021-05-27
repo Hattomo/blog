@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-lastmod: 2021-04-13T09:38:43+09:00
+lastmod: 2021-05-27T23:13:23+09:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
@@ -22,4 +22,4 @@ description: "Desc Text."
 #     hidden: false # only hide on current single page
 ---
 
-# はじめに
+## はじめに

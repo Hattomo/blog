@@ -1,7 +1,7 @@
 ---
 title: "経営工学についてのメモ1"
 date: 2021-03-01T00:13:52+09:00
-lastmod: 2021-03-01T22:13:52+09:00
+lastmod: 2021-05-27T23:13:24+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -21,10 +21,10 @@ description: "経営について学んだことのメモです。企業経営の
 #     relative: true # when using page bundles set this to true
 #     hidden: false # only hide on current single page
 ---
-# はじめに
+## はじめに
 経営についてのメモです。
 
-# 経営工学
+## 経営工学
 ### 企業と経営
 #### 企業とは
 - 一定の計画に基づき、経済的に活動を続ける経済単位。

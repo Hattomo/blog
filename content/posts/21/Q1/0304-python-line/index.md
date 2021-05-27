@@ -1,7 +1,7 @@
 ---
 title: "PythonでLINEトークの履歴を解析し、グラフを生成する"
 date: 2021-03-12T00:11:07+09:00
-lastmod: 2021-03-13T13:56:47+09:00
+lastmod: 2021-05-27T23:13:24+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -21,13 +21,13 @@ description: "PythonでLINEトークの履歴を解析し、グラフを生成�
 #     relative: true # when using page bundles set this to true
 #     hidden: false # only hide on current single page
 ---
-# はじめに
+## はじめに
 Lineには、トーク履歴をエクスポートする機能が付いています。これをPythonを使って解析し、合計メッセージ数、それぞれのメッセージ数、合計文字数、それぞれのメッセージ数、Line電話の時間の合計をそれぞれの月について算出する方法です。筆者は、電子機器の言語を英語に設定しているため、日本語を使用されている方は、履歴のファイル名や内容が日本語表記になっていることが予想されます。適宜読み替えてください。
 
-# Lineからトーク履歴をエクスポートする
+## Lineからトーク履歴をエクスポートする
 これは、PCでもスマホでもできますが、PCとスマホでは、エクスポートされたトーク履歴のフォーマットが微妙に違うことやPCでは、エクスポートできるトーク履歴が会話全体の一部でしかないため、今回はスマホでエクスポートし、PCに送りました。
 
-# トーク履歴をCSVに変換する
+## トーク履歴をCSVに変換する
 エクスポートされたファイルは、`[LINE] Chat with [friend name].txt`となっていました。フォーマットは以下のようでした。うーん、このフォーマットは使いにくい気が...
 ```txt
 ~略~
@@ -302,7 +302,7 @@ print("Success🎉")
 
 ```
 
-# CSVを解析するし、グラフを生成する
+## CSVを解析するし、グラフを生成する
 CSVの解析には`pandas`、グラフの生成には`matplotlib`を`pandas`のラッパーを通して利用してます。ラッパーなので生成されるグラフは`matplotlib`そのものです。
 ### CSVを読み込む
 CSVを`pandas`を利用して読み込みます
@@ -459,6 +459,6 @@ plt.savefig('char_count_by_person.png')
 
 以上でグラフを作成することができました。一度作ってしまえば実行するだけなので、定期的に実行して変化を試したいと思います。
 
-# Reference
+## Reference
 以下のページを参考にしました  
 - https://qiita.com/shimajiroxyz/items/9a06a086ee9730ee3d55

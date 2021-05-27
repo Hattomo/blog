@@ -1,7 +1,7 @@
 ---
 title: "自作OS 0 環境構築"
 date: 2021-02-23T13:53:51+09:00
-lastmod: 2021-02-23T13:53:51+09:00
+lastmod: 2021-05-27T23:13:24+09:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
@@ -21,14 +21,14 @@ description: "Desc Text."
 #     relative: true # when using page bundles set this to true
 #     hidden: false # only hide on current single page
 ---
-# はじめに
+## はじめに
 OSはどのように動いているのか気になり、自作をしてみることにしました。基本の用語から何もわからん...。
 `Rust`+`RISC-V` でいきたい...
 
-# docker 
+## docker 
 `docker`をインストールし、ubuntu:2004を利用します。すべての開発はdocker上で行います。
 
-# Build qemu
+## Build qemu
 `qemu`をビルドします。最初に必要なものを`apt install`します。  
 ```
 sudo apt install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev \
@@ -52,7 +52,7 @@ python3 get-pip.py
 python3 -m pip install ninja
 exit
 ```
-# Rustのインストール
+## Rustのインストール
 とりあえず、通常版です。
 ```sh
 $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -61,11 +61,11 @@ $ rustc --version
 rustc 1.50.0 (cb75ad5db 2021-02-10)
 ```
 
-# risc-v向けgccのインストール
+## risc-v向けgccのインストール
 ```
 sudo apt install gcc-riscv64-unknown-elf
 ```
-# 確認
+## 確認
 ```
 $ qemu-system-riscv64 --version
 QEMU emulator version 5.2.0 (v5.2.0)
@@ -77,6 +77,6 @@ Copyright (c) 2003-2020 Fabrice Bellard and the QEMU Project developers
 hattomo@722b63d75c70:~/rust-v-os$ qemu-system-riscv64 -nographic -machine virt -kernel rist-v-os
 ```
 
-# Reference 
+## Reference 
 https://risc-v-getting-started-guide.readthedocs.io/en/latest/linux-qemu.html
 https://github.com/mesonbuild/meson/issues/7258
