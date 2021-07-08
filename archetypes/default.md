@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-lastmod: 2021-05-27T23:13:23+09:00
+lastmod: 2021-07-08T23:29:26+09:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
