@@ -1,8 +1,8 @@
 ---
 title: "2段階SSH、VNC、RDPを行う方法"
 date: 2021-07-08T23:27:45+09:00
-lastmod: 2021-05-27T23:13:23+09:00
-draft: true
+lastmod: 2021-07-11T21:30:48+09:00
+draft: false
 # weight: 1
 # aliases: ["/first"]
 tags: [""]

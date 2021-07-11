@@ -1,7 +1,7 @@
 ---
 title: "Looking back 2021 and Hello 2022"
 date: 2021-12-31T12:40:39+09:00
-lastmod: 2021-05-27T23:29:17+09:00
+lastmod: 2021-07-11T21:30:48+09:00
 draft: true
 # weight: 1
 # aliases: ["/first"]
@@ -43,6 +43,7 @@ Flutter Engageが行われる。ディストップがstable channelで利用で�
 - [ ] Pass graduate School entrance examination
 - [ ] Get keyboard?
 ### June
+院試の勉強を少しずつ始めました。研究においては、データセットの収録が始まりました。データ容量が大きかったり、うまくとれていなかったり、前処理の方法などで大変です。また、`Windows 11`の発表会があり、New DesignやAndroid App Supportが発表された。
 ### July
 ### August
 ### September

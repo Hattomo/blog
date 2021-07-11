@@ -1,7 +1,7 @@
 ---
 title: "PythonでLINEトークの履歴を解析し、グラフを生成する"
 date: 2021-03-12T00:11:07+09:00
-lastmod: 2021-05-27T23:13:24+09:00
+lastmod: 2021-07-11T21:30:48+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -324,6 +324,8 @@ plt.ylim(0,)
 plt.title('message')
 plt.savefig('message_count.png')
 ```
+![](https://raw.githubusercontent.com/Hattomo/blog-image/main/21/Q1/0304-python-line/Figure_1.webp)
+
 ### 人ごとの月別メッセージ数
 `pandas`では、クロスタブを利用することで、簡単にクロス集計分析を行うことができます
 ```python
@@ -334,6 +336,8 @@ plt.ylabel("count")
 plt.ylim(0,)
 plt.savefig('message_count_by_person.png')
 ```
+![](https://raw.githubusercontent.com/Hattomo/blog-image/main/21/Q1/0304-python-line/Figure_2.webp)
+
 ### 月別電話時間
 電話の`flag`は10なのでまずは、csvからそのデータを取り出します。さらに電話時間はCSVに秒で記録されておりそのままでは、値が大きく理解しずらいため、3600でわり、時間にしました。
 ```python
@@ -347,6 +351,7 @@ plt.ylim(0,)
 plt.title('Call Time')
 plt.savefig('call_time.png')
 ```
+![](https://raw.githubusercontent.com/Hattomo/blog-image/main/21/Q1/0304-python-line/Figure_3.webp)
 
 ### 月別メッセージの文字数の合計
 charというcolumnを作成し、そこにメッセージの文字数を入れたあとメッセージ数を数えた時と同じように、集計を行いました。
@@ -364,6 +369,7 @@ plt.ylim(0,)
 plt.title('char data')
 plt.savefig('char_count.png')
 ```
+![](https://raw.githubusercontent.com/Hattomo/blog-image/main/21/Q1/0304-python-line/Figure_4.webp)
 
 ### 人べつ月ごとの文字数の合計
 月別メッセージの文字数の合計で作成したデータフレームを再利用し人べつのデータを作成します。
@@ -384,6 +390,8 @@ plt.ylim(0,)
 plt.legend()
 plt.savefig('char_count_by_person.png')
 ```
+
+![](https://raw.githubusercontent.com/Hattomo/blog-image/main/21/Q1/0304-python-line/Figure_5.webp)
 
 ### 解析するコードの全体
 ```python
