@@ -24,7 +24,7 @@ params:
     author: [""]
     # author: ["Me", "You"] # multiple authors
     # images: ["<link or path of image for opengraph, twitter-cards>"] google crawler
-
+    ShowCodeCopyButtons: true
     defaultTheme: auto # dark, light
     disableThemeToggle: false
     ShowWordCount: true
