@@ -27,3 +27,8 @@ $ git commit -n -m "comments"
 ```
 $ new.sh posts/{title}.md
 ```
+
+## Links
+- [Forked Theme](https://github.com/Hattomo/hugo-PaperMod)
+- [Original theme](https://github.com/adityatelange/hugo-PaperMod)
+- [Blog image](https://github.com/Hattomo/blog-image)

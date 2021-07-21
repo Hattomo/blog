@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-01-24T11:44:54+09:00
-lastmod: 2021-07-11T21:30:48+09:00
+lastmod: 2021-07-21T20:43:56+09:00
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -90,5 +90,5 @@ Both privacy and security are incredible important. I value it. To learn more, p
 
 ### 2. Supported Platform
 This blog is supporting latest version of `Chrome`, `Microsoft edge`, `Safari`, `Firefox`. Please use those browser.  
-⚠ if you use macOS Safari, you must use Big Sur or later.
+⚠ if you use macOS Safari, you must use Big Sur or later.  
 ⚠ if you use ios, you must use ios 14 or later.

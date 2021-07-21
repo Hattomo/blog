@@ -11,7 +11,7 @@ buildExpired: false
 HasCJKLanguage: true
 
 #googleAnalytics: UA-187976627-1
-GoogleAnalytics: G-352SDD97BP # GA4
+googleAnalytics: G-352SDD97BP # GA4
 
 minify:
     disableXML: true
